@@ -1,1 +1,32 @@
 /* your code */
+.heading_design{
+	background-color:skyblue;
+    
+}
+
+.table_style{
+    /*border:2px solid black;*/
+    /*border-radius: 10px;*/
+    width:100%;
+    border-collapse: collapse ;
+    padding: 300px;
+}
+tr:nth-child(even) {
+    background-color: lightgrey;
+  }
+ td,th{
+    text-align: left;
+  }
+  .rad1{
+    border-top-left-radius: 8px;
+  }
+  .rad2{
+    border-top-right-radius: 8px;
+  }
+  .rad3{
+    border-bottom-right-radius: 8px;
+  }
+  .rad4{
+    border-bottom-left-radius: 8px;
+  }
+  
